@@ -24,25 +24,25 @@
 <details>
 <summary>자세히보기 (사진)</summary>
 
-1) html 아래 vue를 위한 cdn을 script에 삽입
-![2022-04-05-04-22-30](https://user-images.githubusercontent.com/75118895/161807688-463c7234-27da-46bc-ab29-cec40a76378d.png)
+1) html 아래 vue를 위한 cdn을 script에 삽입  
+    <img src="https://user-images.githubusercontent.com/75118895/161807688-463c7234-27da-46bc-ab29-cec40a76378d.png" style="width: 500px">
 
-1) Vue 인스턴스 생성
-![2022-04-05-04-30-55](https://user-images.githubusercontent.com/75118895/161807848-518e9ec5-989c-455d-b0d6-48c8c9909e10.png)
+1) Vue 인스턴스 생성  
+    <img src="https://user-images.githubusercontent.com/75118895/161807848-518e9ec5-989c-455d-b0d6-48c8c9909e10.png" style="width: 500px">
 
-1) Vue 인스턴스의 el 속성에 상호작용할 요소의 id를 넣어 해당 요소와 vue 객체 연결
-![2022-04-05-04-31-43](https://user-images.githubusercontent.com/75118895/161808191-3d0dce32-c66f-434c-8b8e-5fa80e002c0f.png)
+1) Vue 인스턴스의 el 속성에 상호작용할 요소의 id를 넣어 해당 요소와 vue 객체 연결  
+    <img src="https://user-images.githubusercontent.com/75118895/161808191-3d0dce32-c66f-434c-8b8e-5fa80e002c0f.png" style="width: 500px">
 
-1) Vue 인스턴스의 data 속성에 html 요소에 들어갈 data를 object 형으로 선언
-![2022-04-05-04-34-19](https://user-images.githubusercontent.com/75118895/161808248-8aeaa1c9-380a-49a7-a3da-926b8e45b95d.png)
+1) Vue 인스턴스의 data 속성에 html 요소에 들어갈 data를 object 형으로 선언  
+    <img src="https://user-images.githubusercontent.com/75118895/161808248-8aeaa1c9-380a-49a7-a3da-926b8e45b95d.png" style="width: 500px">
 
 1) html에 data 출력
 
-    1) html에서 {{}}에 obejct의 key로 data에 접근
-![2022-04-05-04-36-41](https://user-images.githubusercontent.com/75118895/161808491-f634ca20-4888-4ed7-be1a-9d4c93d2b692.png)
+    1) html에서 {{}}에 obejct의 key로 data에 접근  
+        <img src="https://user-images.githubusercontent.com/75118895/161808491-f634ca20-4888-4ed7-be1a-9d4c93d2b692.png" style="width: 500px">
 
-    1) html에서 v-for 속성을 이용해 data에 접근 가능
-![2022-04-05-04-40-47](https://user-images.githubusercontent.com/75118895/161808540-444a9d74-f6b3-48cd-9653-1d8e49b0b914.png)
+    1) html에서 v-for 속성을 이용해 data에 접근 가능  
+        <img src="https://user-images.githubusercontent.com/75118895/161808540-444a9d74-f6b3-48cd-9653-1d8e49b0b914.png" style="width: 500px">
 
 *영상출처 : https://vimeo.com/247494684
 </details>
@@ -162,19 +162,20 @@ vue.cmd --version
 - 2, 3번은 반복 코드 입력 시간을 줄이기 위한 프로그램으로, 설치하지 않아도 무관
 
 #### 2-2-1. Vetur : .vue 파일의 코드 하이라이팅을 위한 확장 프로그램
-![image](https://user-images.githubusercontent.com/75118895/161750272-a8741eeb-90bd-4607-a21b-99117990e302.png)  
+<img src="https://user-images.githubusercontent.com/75118895/161750272-a8741eeb-90bd-4607-a21b-99117990e302.png" style="width: 500px">
 
 |설치전|설치후|
 |---|---|
 |![2022-04-05-19-54-04](https://user-images.githubusercontent.com/75118895/161750417-37b20f74-927f-4fe8-9bee-b42030e594e1.png)|![2022-04-05-19-53-18](https://user-images.githubusercontent.com/75118895/161750328-5a5d25d1-929d-44c8-9a15-605fd7f3a454.png)|
 
 #### 2-2-2. Vue 3 Snippets : vue에 대한 스니펫이 정의되어져 있는 확장 프로그램
-![2022-04-05-19-57-22](https://user-images.githubusercontent.com/75118895/161750504-8b208294-cdab-45db-90e0-d5b26cf5714d.png)
+<img src="https://user-images.githubusercontent.com/75118895/161750504-8b208294-cdab-45db-90e0-d5b26cf5714d.png" style="width: 500px">
 
 #### 2-2-3. HTML CSS Support : 해당 html 문서의 id, class 명을 추천해주는 확장 프로그램
-![2022-04-05-20-02-15](https://user-images.githubusercontent.com/75118895/161750547-83797781-3f1e-4490-b9cf-4db39fb41775.png)  
-    - 사용예시  
-    ![2022-04-05-20-03-50](https://user-images.githubusercontent.com/75118895/161750578-650b5e4d-7b1e-4a51-914d-4c7c2f412ef3.png)
+<img src="https://user-images.githubusercontent.com/75118895/161750547-83797781-3f1e-4490-b9cf-4db39fb41775.png" style="width: 500px">
+    
+- 사용예시  
+![2022-04-05-20-03-50](https://user-images.githubusercontent.com/75118895/161750578-650b5e4d-7b1e-4a51-914d-4c7c2f412ef3.png)
 </details>
 
 <details>
@@ -233,20 +234,20 @@ vue create [프로젝트 명]
         #### :question: vue 스크립트 실행 오류
         @vue/cli 설치에서 설명한 것과 같이, vue cli 4.x 이상 버전에서 cmd가 아닌 다른 cli 프로그램을 사용할 경우 vue.cmd 명령어 사용!
 
-        ![image](https://user-images.githubusercontent.com/75118895/161754557-9a5ce6e2-50cb-48d3-bb78-bef68f516023.png)
+        <img src="https://user-images.githubusercontent.com/75118895/161754557-9a5ce6e2-50cb-48d3-bb78-bef68f516023.png" style="width: 600px">
 
     3) preset 선택
         #### :question: preset(사전 설정)이란?
         - Vue CLI 3.x 버전 이후부터 제공
         - 프로젝트의 기본적인 플러그인들의 구성을 프로젝트 생성 단계에서 선택 (;`vue create`를 사용해서 프로젝트를 생성할 때 어떤 플러그인을 추가할지 선택하면 그 플러그인들은 미리 설치됨)
         - `vue add`를 통해 프로젝트 생성 후에도 플러그인 추가 가능
-
-        ![image](https://user-images.githubusercontent.com/75118895/161755129-226da2ff-9564-47bb-9974-1680f1234be1.png)
+        
+        <img src="https://user-images.githubusercontent.com/75118895/161755129-226da2ff-9564-47bb-9974-1680f1234be1.png" style="width: 300px">
 
         위와 같이 디폴트(Vue 2 또는 Vue 3 버전의 기본 구성의 vue 프로젝트)로 설정할지 사용자가 수동으로 플러그인 구성을 선택할지 선택할 수 있음  
         이번 프로젝트는 vue 2버전의 기본 구성으로 진행
 
-        ![image](https://user-images.githubusercontent.com/75118895/161755140-0ddfaaf2-e430-4dcd-8a7d-7cc1d6c715fa.png)  
+        <img src="https://user-images.githubusercontent.com/75118895/161755140-0ddfaaf2-e430-4dcd-8a7d-7cc1d6c715fa.png" style="width: 500px">
 
         프리셋 세팅 후, 성공적으로 프로젝트를 생성했다는 문구가 나오면 정상
 
@@ -259,21 +260,26 @@ vue create [프로젝트 명]
 #### 2-5-1. Vue 프로젝트로 이동
 작업폴더의 하위 폴더로 다음과 같이 이동 (;File - Open Folder - 폴더 선택)
 
-![image](https://user-images.githubusercontent.com/75118895/161803074-42753643-e413-4f46-8ad5-1349ba95c2a3.png)
+<img src="https://user-images.githubusercontent.com/75118895/161803074-42753643-e413-4f46-8ad5-1349ba95c2a3.png" style="width: 600px">
 
 #### 2-5-2. 메인 페이지(App.vue) 작성
-- template 태그 안에 HTML 코드 작성
-- script 태그 안에 JS 코드 작성
-- style 태그 안에 CSS 코드 작성
-
-![image](https://user-images.githubusercontent.com/75118895/161815557-9334089d-7a7a-49d8-8695-d4c7962bf33f.png)
+|이미지|설명|
+|-----|----|
+|<img src="https://user-images.githubusercontent.com/75118895/161815557-9334089d-7a7a-49d8-8695-d4c7962bf33f.png" style="width: 700px">|- template 태그 안에 HTML 코드 작성 <br> - script 태그 안에 JS 코드 작성 <br> - style 태그 안에 CSS 코드 작성|
 
 *간단한 실습을 진행하고 싶다면, 'cdn으로 시작'의 맨 아래에 위치한 '자세히보기 (사진)'을 따라하면 됨
 
 #### 2-5-3. 서버 실행
 - 터미널에서 실행하려는 vue 프로젝트의 루트로 이동한 다음, `npm run server` 입력
+    
 - 터미널에 뜬 localhost:8080을 클릭하거나 브라우저 주소창에 해당 주소 입력
+    
+    <img src="https://user-images.githubusercontent.com/75118895/161829737-7f760594-52ab-47b6-a783-638b32f5fe79.png" style="width: 500px">
+    
 - App.vue(메인 페이지)의 내용이 브라우저에 뜸
+    |수정된 App.vue template 코드|브라우저|
+    |---------------------------|-------|
+    |![image](https://user-images.githubusercontent.com/75118895/161830635-7e197560-b3d8-47e4-a9a5-4ff8399489a6.png)|<img src="https://user-images.githubusercontent.com/75118895/161830401-98197062-d015-419a-b440-1c3eeec4573c.png" style="width: 600px">|
 </details>
 
 <br>
