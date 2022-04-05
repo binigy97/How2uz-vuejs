@@ -109,7 +109,7 @@ npm i -g @vue/cli
 - 폴더 구조, lint, build, 어떤 라이브러리로 구성을 해야되는지 webpack 설정은 어떻게 해야되는지에 대한 고민을 덜을 수 있음
 
 *출처 : https://simplevue.gitbook.io/intro/01.-vue-cli  
-*참고 : https://cli.vuejs.org/guide/|
+*참고 : https://cli.vuejs.org/guide
 
 #### :question: vue cli 2를 사용하고 있을 경우
 기존에 Vue CLI 2를 사용하고 있었다면, vue라는 커맨드의 네임스페이스가 꼬일 수 있기 때문에 Vue CLI 2를 제거 후 `npm i -g @vue/cli` 진행
