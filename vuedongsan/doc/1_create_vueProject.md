@@ -62,16 +62,16 @@
 
 ### 1. https://nodejs.org/ko/ 에서 node.js 설치 후 터미널에서 vue-cli 설치
 <details>
-<summary>node.js 설치 (자세히 보기)</summary>
+<summary>1-1. node.js 설치 (자세히 보기)</summary>
 
-#### 1) https://nodejs.org/ko/ 에서 node.js 설치
+#### 1-1-1. https://nodejs.org/ko/ 에서 node.js 설치
 - 짝수 : LTS 버전
 - 홀수 : Stable 버전
 
 ![image](https://user-images.githubusercontent.com/75118895/161749443-55acd30c-989e-476a-a15a-792e0be0ebde.png)  
 
 
-#### 2) 설치 확인 : cmd에서 node와 npm 버전 확인  
+#### 1-1-2. 설치 확인 : cmd에서 node와 npm 버전 확인  
 명령어가 정상적으로 실행되면, 설치가 정상적으로 완료된 상태
 
 ![image](https://user-images.githubusercontent.com/75118895/161749692-d35f0064-8296-4db2-91f2-1cf74b8c03c0.png)  
@@ -79,9 +79,9 @@
 </details>
 
 <details>
-<summary>@vue/cli 설치 (자세히 보기)</summary>
+<summary>1-2. @vue/cli 설치 (자세히 보기)</summary>
 
-#### 1) cmd 또는 VScode의 터미널에서 아래의 명령어로 진행 가능
+#### 1-2-1. cmd 또는 VScode의 터미널에서 아래의 명령어로 진행 가능
 ```
 npm install -g @vue/cli
 ```
@@ -118,7 +118,7 @@ npm r -g vue-cli
 npm i -g @vue/cli
 ```
 
-#### 2) 설치 확인 : vue 버전 확인
+#### 1-2-2. 설치 확인 : vue 버전 확인
 ```
 vue --version
 ```
@@ -146,7 +146,7 @@ vue.cmd --version
 
 ### 2. 개발환경 세팅 : Vue CLI로 Vue 프로젝트 생성
 <details>
-<summary>VSCode 설치 (자세히 보기)</summary>
+<summary>2-1. VSCode 설치 (자세히 보기)</summary>
 
 #### https://code.visualstudio.com/ 에서 자신의 운영 체제에 맞는 stable 버전으로 설치
 - Stable 버전 : 안정화된 버전 (;버그가 최소화된 버전)
@@ -156,43 +156,43 @@ vue.cmd --version
 </details>
 
 <details>
-<summary>VSCode 확장 프로그램 설치 (자세히 보기)</summary>
+<summary>2-2. VSCode 확장 프로그램 설치 (자세히 보기)</summary>
 
 #### Ctrl + Shift + X (Extensions 메뉴)에서 아래의 프로그램 설치  
 - 2, 3번은 반복 코드 입력 시간을 줄이기 위한 프로그램으로, 설치하지 않아도 무관
 
-1) Vetur : .vue 파일의 코드 하이라이팅을 위한 확장 프로그램
+#### 2-2-1. Vetur : .vue 파일의 코드 하이라이팅을 위한 확장 프로그램
 ![image](https://user-images.githubusercontent.com/75118895/161750272-a8741eeb-90bd-4607-a21b-99117990e302.png)  
 
 |설치전|설치후|
 |---|---|
 |![2022-04-05-19-54-04](https://user-images.githubusercontent.com/75118895/161750417-37b20f74-927f-4fe8-9bee-b42030e594e1.png)|![2022-04-05-19-53-18](https://user-images.githubusercontent.com/75118895/161750328-5a5d25d1-929d-44c8-9a15-605fd7f3a454.png)|
 
-2) Vue 3 Snippets : vue에 대한 스니펫이 정의되어져 있는 확장 프로그램
+#### 2-2-2. Vue 3 Snippets : vue에 대한 스니펫이 정의되어져 있는 확장 프로그램
 ![2022-04-05-19-57-22](https://user-images.githubusercontent.com/75118895/161750504-8b208294-cdab-45db-90e0-d5b26cf5714d.png)
 
-3) HTML CSS Support : 해당 html 문서의 id, class 명을 추천해주는 확장 프로그램
-![2022-04-05-20-02-15](https://user-images.githubusercontent.com/75118895/161750547-83797781-3f1e-4490-b9cf-4db39fb41775.png)
+#### 2-2-3. HTML CSS Support : 해당 html 문서의 id, class 명을 추천해주는 확장 프로그램
+![2022-04-05-20-02-15](https://user-images.githubusercontent.com/75118895/161750547-83797781-3f1e-4490-b9cf-4db39fb41775.png)  
     - 사용예시  
     ![2022-04-05-20-03-50](https://user-images.githubusercontent.com/75118895/161750578-650b5e4d-7b1e-4a51-914d-4c7c2f412ef3.png)
 </details>
 
 <details>
-<summary>git과 VSCode 연동 (자세히 보기)</summary>
+<summary>2-3. git과 VSCode 연동 (자세히 보기)</summary>
 
 *단순히 github에 작성 코드를 올리기 위한 과정으로, 생략해도 상관없음
 
-#### 1) github에서 repository 생성 후 로컬에서의 원하는 경로에 clone  
+#### 2-3-1. github에서 repository 생성 후 로컬에서의 원하는 경로에 clone  
 - [Github의 git repository과 로컬 연결하기](https://github.com/binigy97/How2uz-GitHub/blob/main/2_cmd_gitRepository/2_git_repository.md)
 
-#### 2) 로컬에 git repository를 clone한 모습  
+#### 2-3-2. 로컬에 git repository를 clone한 모습  
 ![2022-04-05-20-13-33](https://user-images.githubusercontent.com/75118895/161750637-864d78dd-57d8-40ab-9068-e617fc1e37d1.png)
 </details>
 
 <details>
-<summary>Vue CLI로 Vue 프로젝트 생성하기 (자세히 보기)</summary>
+<summary>2-4. Vue CLI로 Vue 프로젝트 생성 (자세히 보기)</summary>
 
-#### 1) 생성하려는 vue 프로젝트는 원하는 경로로 이동한 다음, 프로젝트를 생성해야 됨
+#### 2-4-1. 생성하려는 vue 프로젝트는 원하는 경로로 이동한 다음, 프로젝트를 생성해야 됨
 - cmd에서 진행할 경우
     ```
     D:
@@ -205,7 +205,7 @@ vue.cmd --version
     ![2022-04-05-20-29-21](https://user-images.githubusercontent.com/75118895/161750687-7de1aba4-3a37-4cf6-933b-2f10b10389da.png)
     ![2022-04-05-20-31-06](https://user-images.githubusercontent.com/75118895/161750743-dedf9522-a839-4a75-88ac-0c5b9a133d99.png)
 
-#### 2) vue 프로젝트 생성
+#### 2-4-2. vue 프로젝트 생성
 vue 프로젝트는 vue cli의 create 명령어를 이용하여 생성할 수 있음
 ```
 vue create [프로젝트 명]
@@ -251,18 +251,17 @@ vue create [프로젝트 명]
         프리셋 세팅 후, 성공적으로 프로젝트를 생성했다는 문구가 나오면 정상
 
         *참고 : 해당 문구 아래, 두 줄은 서버 실행 방법에 대해 나와있으니 잘 참고하기
+</details>
 
-#### 3) vue 프로젝트로 이동
+<details>
+<summary>2-5. Vue 프로젝트 실행 (자세히 보기)</summary>
+
+#### 2-5-1. Vue 프로젝트로 이동
 작업폴더의 하위 폴더로 다음과 같이 이동 (;File - Open Folder - 폴더 선택)
 
 ![image](https://user-images.githubusercontent.com/75118895/161803074-42753643-e413-4f46-8ad5-1349ba95c2a3.png)
 
-</details>
-
-<details>
-<summary>메인 페이지 살펴보기 (자세히 보기)</summary>
-
-#### App.vue가 메인 페이지
+#### 2-5-2. 메인 페이지(App.vue) 작성
 - template 태그 안에 HTML 코드 작성
 - script 태그 안에 JS 코드 작성
 - style 태그 안에 CSS 코드 작성
@@ -271,10 +270,10 @@ vue create [프로젝트 명]
 
 *간단한 실습을 진행하고 싶다면, 'cdn으로 시작'의 맨 아래에 위치한 '자세히보기 (사진)'을 따라하면 됨
 
-#### 서버 실행
+#### 2-5-3. 서버 실행
 - 터미널에서 실행하려는 vue 프로젝트의 루트로 이동한 다음, `npm run server` 입력
 - 터미널에 뜬 localhost:8080을 클릭하거나 브라우저 주소창에 해당 주소 입력
-- App.vue의 내용이 브라우저에 뜸
+- App.vue(메인 페이지)의 내용이 브라우저에 뜸
 </details>
 
 <br>
