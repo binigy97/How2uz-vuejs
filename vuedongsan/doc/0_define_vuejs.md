@@ -40,6 +40,12 @@ frame을 따르는 코드의 집합체 (; 개발에 필요한 코드가 frame을
 - 개발자가 원하는대로 구현된 코드를 이용함으로써 개발 시간 등에서 장점을 갖음
 - [framework와 library 차이 (영상)](https://www.youtube.com/watch?v=t9ccIykXTCM)
 </details>
+<details>
+<summary>module?</summary>
+
+- 라이브러리에 포함되는 개념으로, 개발에서는 같은 개념으로 취급하기도 함
+- 참고 : https://joie-kim.github.io/Module-Library-Framework/
+</details>
 
 ## Framework 종류
 - Hybrid app framework : 하이브리드 앱 개발을 위한 프로젝트 구조가 정의되어져 있는 것

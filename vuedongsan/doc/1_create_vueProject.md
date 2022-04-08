@@ -30,13 +30,13 @@
 1) Vue 인스턴스 생성  
     <img src="https://user-images.githubusercontent.com/75118895/161807848-518e9ec5-989c-455d-b0d6-48c8c9909e10.png" style="width: 500px">
 
-1) Vue 인스턴스의 el 속성에 상호작용할 요소의 id를 넣어 해당 요소와 vue 객체 연결  
+1) Vue 인스턴스의 el 프로퍼티(property)에 상호작용할 요소의 id를 넣어 해당 요소와 vue 객체 연결  
     <img src="https://user-images.githubusercontent.com/75118895/161808191-3d0dce32-c66f-434c-8b8e-5fa80e002c0f.png" style="width: 500px">
 
-1) Vue 인스턴스의 data 속성에 html 요소에 들어갈 data를 object 형으로 선언  
+1) Vue 인스턴스의 data 프로퍼티에 html 요소에 들어갈 data를 object 형으로 선언  
     <img src="https://user-images.githubusercontent.com/75118895/161808248-8aeaa1c9-380a-49a7-a3da-926b8e45b95d.png" style="width: 500px">
 
-1) html에 data 출력
+1) html에 Vue 인스턴스의 data 프로퍼티 출력
 
     1) html에서 {{}}에 obejct의 key로 data에 접근  
         <img src="https://user-images.githubusercontent.com/75118895/161808491-f634ca20-4888-4ed7-be1a-9d4c93d2b692.png" style="width: 500px">
