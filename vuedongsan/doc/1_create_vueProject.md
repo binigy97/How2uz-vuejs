@@ -1,7 +1,12 @@
+> ### 목차
+> 1. [Vue.js 시작하기](#vuejs-시작하기)
+>       - [cdn로 시작](#cdn로-시작)
+>       - [node.js로 시작](#nodejs로-시작)
+
 # Vue.js 시작하기
 
-## cdn으로 시작
-#### :question: 왜 cnd를 사용하는지?
+## cdn로 시작
+#### :question: 왜 cdn를 사용하는지?
 - Vue 프로젝트를 생성하지 않고, 현재 개발 환경의 일부에 Vue.js를 이용하기 위해
 - Vue 프로젝트를 생성하는 것이 이득이라면 node.js를 이용하자
 
@@ -57,7 +62,14 @@
     - vue create 명령어는 @vue/cli라는 패키지 안에 있기 때문에 이를 먼저 설치해야 됨
     - @vue/cli 패키지는 npm 안에 있어서 npm을 먼저 설치해야 됨
     - npm는 웹개발 라이브러리(모듈)이 패키지화 되있는 것으로, node.js 안에 있기 때문에 이를 먼저 설치해야 됨
-- 따라서, node.js는 Vue 프로젝트를 만들기 위해 설치한다고 정리 가능 
+- 따라서, node.js는 Vue 프로젝트를 만들기 위해 설치한다고 정리 가능
+
+#### :question: node명령어와 npm scripts의 차이
+node는 결국 자바스크립트 실행기로, node 명령어를 통해 ./node_modules 아래의 외부 모듈(js로 작성되어져 있음)을 실행시키는 것  
+(npm script는 ./node_modules/.bin 폴더에 있는 실행 파일을 직접 실행하므로 node 없이 외부 모듈(js로 작성되어져 있음)을 실행시킬 수 있음)
+
+*참고 : [./node_modules이란?](https://github.com/binigy97/How2uz-vuejs/edit/main/vuedongsan/doc/2_how-it-works.md#vue-프로젝트-디렉토리-구조)
+
 <br>
 
 ### 1. https://nodejs.org/ko/ 에서 node.js 설치 후 터미널에서 vue-cli 설치
@@ -262,7 +274,10 @@ vue create [프로젝트 명]
 
 <img src="https://user-images.githubusercontent.com/75118895/161803074-42753643-e413-4f46-8ad5-1349ba95c2a3.png" style="width: 600px">
 
-#### 2-5-2. 메인 페이지(App.vue) 작성
+#### 2-5-2. App.vue 작성
+
+App.vue는 메인 페이지라고 볼 수 있음 (메인 페이지의 컴포넌트)
+
 |이미지|설명|
 |-----|----|
 |<img src="https://user-images.githubusercontent.com/75118895/161815557-9334089d-7a7a-49d8-8695-d4c7962bf33f.png" style="width: 700px">|- template 태그 안에 HTML 코드 작성 <br> - script 태그 안에 JS 코드 작성 <br> - style 태그 안에 CSS 코드 작성|
@@ -276,20 +291,20 @@ vue create [프로젝트 명]
     
     <img src="https://user-images.githubusercontent.com/75118895/161829737-7f760594-52ab-47b6-a783-638b32f5fe79.png" style="width: 500px">
     
-- App.vue(메인 페이지)의 내용이 브라우저에 뜸
+- App.vue의 내용이 브라우저의 메인 페이지에 뜸
     |수정된 App.vue template 코드|브라우저|
     |---------------------------|-------|
     |![image](https://user-images.githubusercontent.com/75118895/161830635-7e197560-b3d8-47e4-a9a5-4ff8399489a6.png)|<img src="https://user-images.githubusercontent.com/75118895/161830401-98197062-d015-419a-b440-1c3eeec4573c.png" style="width: 600px">|
 </details>
 
-<br>
+---
 <details>
 <summary>용어 설명 (펼치기)</summary>
 
 |용어|설명|
 |---|---|
 |JavaScript| - 프로그래밍 언어의 일종 (이름에서 알 수 있듯 독립적인 언어가 아닌 스크립트 언어)<br> - 스크립트 언어는 특정한 프로그램 안에서 동작 (;JS는 **웹 브라우저 프로그램 안에서만** 동작)|
-|Node.js| - JavaScript를 **서버에서도** 사용할 수 있도록 만든 프로그램(백엔드 프레임워크) <br> - Chrome V8 JavaScript 엔진으로 빌드 된 JavaScript 런타임 (;V8이라는 JavaScript 엔진 위에서 동작하는 자바스크립트 런타임(환경))<br> - 웹서버와 같이 확장성 있는 네트워크 어플리케이션 개발에 사용되는 소프트웨어 플랫폼<br> - 내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도 소프트웨어 없이 동작하는 것이 가능<br> *출처 : https://hanamon.kr/nodejs-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/<br> *참고 : [프론트엔드 개발에 Node.js가 필요한 이유](https://jeonghwan-kim.github.io/series/2019/12/09/frontend-dev-env-npm.html)|
+|Node.js| - JavaScript를 **서버에서도** 사용할 수 있도록 만든 프로그램(백엔드 프레임워크)<br> - Chrome V8 JavaScript 엔진으로 빌드 된 JavaScript 런타임(=환경) (;V8이라는 JavaScript 엔진 위에서 동작하는 자바스크립트 런타임)<br> - 웹서버와 같이 확장성 있는 네트워크 어플리케이션 개발에 사용되는 소프트웨어 플랫폼<br> - (./node_modules 아래) HTTP 서버 라이브러리를 포함하고 있기 때문에 웹 서버에서 아파치 등의 별도 소프트웨어 없이 동작하는 것이 가능<br> *출처 : https://hanamon.kr/nodejs-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/<br> *참고 : [프론트엔드 개발에 Node.js가 필요한 이유](https://jeonghwan-kim.github.io/series/2019/12/09/frontend-dev-env-npm.html)|
 |LTS 버전| - Long Term Supported<br> - 서버환경에서 장기적으로 **안정적인 지원을 제공하는 버전** (;**서버운영에 적합**)|
 |Stable 버전| - 추가적인 기능개발과 기존 API기능 개선을 위한 잦은 업데이트 진행 **(;개인 개발 및 테스트에 적합)**|
 |npm| - Node Package Modules<br> - **Node.js에서 사용 가능한 모듈(;웹개발 라이브러리)들을 패키지화** 시켜 모아놓은 것<br> - JS 기반 프로젝트의 빌드 도구|
@@ -297,4 +312,5 @@ vue create [프로젝트 명]
 |cmd| - (윈도우 계열의) cli 실행 프로그램 이름 |
 |PowerShell| - (윈도우 계열의) cli 실행 프로그램 이름 (CMD의 고급 버전) <br>- CMD에서 액세스 할 수 없는 시스템 관리 작업의 자동화에 사용|
 |터미널| - (리눅스 계열의) cli 실행 프로그램 이름<br> - 물리 하드웨어를 소프트웨어로 구현한 애플리케이션으로, 가상 터미널 혹은 터미널 에뮬레이터가 더 정확한 표현 |
+|:star:component| - HTML Element를 확장하고 재사용 가능한 형태로 구현하는 것<br> - 모든 Vue 컴포넌트는 하나하나가 **Vue.js의 인스턴스이기도 함**<br> - vue 앱에서 가장 핵심이 되는 개념|
 </details>

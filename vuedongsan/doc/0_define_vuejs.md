@@ -1,3 +1,14 @@
+> ### 목차
+> 1. [application이란?](#application이란)
+>       - [Native app](#native-app)
+>       - [Web app](#starweb-app)
+>       - [Hybrid app](#hybrid-app)
+> 1. [Framework란?](#framework란)
+> 1. [Vue.js란?](#starvuejs란)
+>       - [Vue.js 특징](#vuejs-특징)
+>       - [MVVM 패턴](#mvvm-패턴)
+>       - [Data Bindings](#data-bindings)
+
 # application이란?
 응용 프로그램 (; 운영 체제에서 실행되는 모든 소프트웨어)
 
@@ -38,13 +49,13 @@ frame을 따르는 코드의 집합체 (; 개발에 필요한 코드가 frame을
 
 - 코드의 집합체 (; 개발에 필요한 함수가 미리 작성되어진 것)
 - 개발자가 원하는대로 구현된 코드를 이용함으로써 개발 시간 등에서 장점을 갖음
-- [framework와 library 차이 (영상)](https://www.youtube.com/watch?v=t9ccIykXTCM)
+- *참고 : [framework와 library 차이 (영상)](https://www.youtube.com/watch?v=t9ccIykXTCM)
 </details>
 <details>
 <summary>module?</summary>
 
 - 라이브러리에 포함되는 개념으로, 개발에서는 같은 개념으로 취급하기도 함
-- 참고 : https://joie-kim.github.io/Module-Library-Framework/
+- *참고 : [모듈 VS 라이브러리 VS 프레임워크](https://joie-kim.github.io/Module-Library-Framework/)
 </details>
 
 ## Framework 종류
@@ -74,7 +85,7 @@ frame을 따르는 코드의 집합체 (; 개발에 필요한 코드가 frame을
 - Foundation
 - Flutter
 
-*[Top Most Popular Frontend Frameworks 2022](https://www.sam-solutions.com/blog/best-frontend-framework/)
+*참고 : [Top Most Popular Frontend Frameworks 2022](https://www.sam-solutions.com/blog/best-frontend-framework/)
 
 ### Backend framework 종류
 - Node.js
@@ -100,7 +111,7 @@ frame을 따르는 코드의 집합체 (; 개발에 필요한 코드가 frame을
 - UI kit
 - Foundation
 
-*[CSS 프레임워크 모음](https://wooncloud.tistory.com/51#header11)
+*참고 : [CSS 프레임워크 모음](https://wooncloud.tistory.com/51#header11)
 </details>
 
 ---
@@ -112,8 +123,8 @@ interactive한 web app(ex. SPA)을 위한 Framework(MVVM 패턴)
     - AngularJS의 장점과 추가적인 개념을 동반하여 가볍게 만들었다고 함
 - JS 문법을 잘 몰라도 되며 문법이 단순하여 학습하기 쉬움 (cf. React, Angular)
 - React, Angular에 비해 시작이 쉬움 (; cdn 추가 -> vue 인스턴스 생성 -> 끝)
-- [리액트가 아닌 Vue를 쓰는 이유 (영상)](https://www.youtube.com/watch?v=-tVaahsXpwk)
-- [Vue가 아닌 리액트를 쓰는 이유 (블로그)](https://ahnheejong.name/articles/why-i-prefer-react-over-vuejs/)
+- *참고 : [리액트가 아닌 Vue를 쓰는 이유 (영상)](https://www.youtube.com/watch?v=-tVaahsXpwk)
+- *참고 : [Vue가 아닌 리액트를 쓰는 이유 (블로그)](https://ahnheejong.name/articles/why-i-prefer-react-over-vuejs/)
 
 ## MVVM 패턴
 ![2022-04-05-05-06-57](https://user-images.githubusercontent.com/75118895/161803960-150bbb7c-c472-4abf-b041-c3729405c5ec.png)
